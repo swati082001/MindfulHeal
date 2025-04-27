@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Menu, X, Brain, Moon, Sun } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTheme } from "../context/ThemeProvider"; // Ensure correct import
+import { useTheme } from "../context/Themeprovider"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const { theme, setTheme } = useTheme(); // Use theme context here
+  const { theme, setTheme } = useTheme(); 
   
   const toggleMenu = () => setIsOpen(!isOpen);
   
