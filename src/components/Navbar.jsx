@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Menu, X, Brain, Moon, Sun } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTheme } from "../context/Themeprovider"; 
+import { useTheme } from "../context/ThemeProvider"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
