@@ -4,7 +4,7 @@
 
 ## **Live Preview**
 
-- [View the live project on Vercel](https://your-live-preview-link.vercel.app) 
+[Visit the live site](https://mindful-heal-deepsoul-pdf9fnzoc-swati082001s-projects.vercel.app/)
 
 ## **Tech Stack**
 
